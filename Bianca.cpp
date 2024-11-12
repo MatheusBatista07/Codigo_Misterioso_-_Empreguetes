@@ -11,7 +11,7 @@ main(){
 	    fgets(senha, sizeof(senha),stdin);
 	    senha[strcspn(senha,"\n")]='\0';
 	    if(strcmp(senha, senha_correta)==0) {
-	        printf("O erro aparece quando o estoque fica baixo");
+	        printf("O erro aparece quando você tenta adquirir algum produto e a empresa está com o estoque baixo");
 	    }
 	}
 }
