@@ -27,7 +27,6 @@ main(){
 		printf("\n\n	MENU\nDigite uma opção para continuar\n1 - Exibir produtos\n2 - Vender produto\n3 - Sair do programa\n");
 		scanf("%d",&op);
 		opInv=false;
-		https://www.instagram.com/jukrupe?igsh=MWxiZWNyYjA5NGd0bQ==
 		if(op==1){//Exibir produtos
 			printf("\nID - QTD - PREÇO");
 			for(int i=0;i<3;i++){
