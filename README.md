@@ -1,0 +1,3 @@
+# Codigo_Misterioso_-_Empreguete
+ Uma empresa está colocando em promoção todos os seus produtos. No entanto, o sistema entrou em pane e alguns clientes não conseguem adquirir os produtos. 
+ Para solucionar esse problema, talvez você precise verificar o estoque...
