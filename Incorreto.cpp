@@ -40,6 +40,7 @@ main(){
 						printf(" %d -",mat[i][j]);
 					}
 				}
+				https://www.youtube.com/watch?v=xvFZjo5PgG0
 				if(eb==true){
 					printf(" R$%.2f -> Estoque baixo",vet[i]);
 					eb=false;
