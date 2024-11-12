@@ -40,7 +40,6 @@ main(){
 						printf(" %d -",mat[i][j]);
 					}
 				}
-				https://www.youtube.com/watch?v=xvFZjo5PgG0
 				if(eb==true){
 					printf(" R$%.2f -> Estoque baixo",vet[i]);
 					eb=false;
@@ -70,19 +69,14 @@ main(){
 					linha=i;
 				}
 			}
-			if(qtd<=mat[linha][1]&&mat[linha][1]>2){
+			if(qtd<=mat[linha][1]){
 				mat[linha][1]-=qtd;
 				valorVenda=vet[linha]*qtd;
 				printf("Venda sucedida. Valor total: R$%.2f\n",valorVenda);
 			}else if(qtd>mat[linha][1]&&mat[linha][1]!=0){
 				printf("Estoque insuficiente!\n");
-				printf("Sistema em crise!\n");
 			}else if(mat[linha][1]==0){
 				printf("Estoque esgotado!\n");
-			}else{
-				for(int l=0;l<30;l++){
-					printf("PANE!\n");
-				}
 			}
 			opInv=true;	
 		}else if(op==3){
